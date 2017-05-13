@@ -14,11 +14,16 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <!--  with materialize cards  -->
         <Grid Grid.Column="1">
+
             <materialDesign:Card Margin="16" Padding="32">
-                <TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}">My First Material Design App</TextBlock>
+                <StackPanel>
+                    <materialDesign:PackIcon Kind="Account" />
+                    <TextBox>My First Material Design App</TextBox>
+                </StackPanel>
             </materialDesign:Card>
         </Grid>
         <!--  built from scratch  -->
@@ -39,6 +44,10 @@
                 <TextBlock Text="My first Material card" />
             </Grid>
         </Grid>
+
+
+
+
 
     </Grid>
 </Window>
