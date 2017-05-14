@@ -22,8 +22,10 @@
             <materialDesign:Card Margin="16" Padding="32">
                 <StackPanel>
                     <materialDesign:PackIcon Kind="Account" />
-                    <TextBox>My First Material Design App</TextBox>
+                    <TextBox />
+                    <TextBlock>text in here</TextBlock>
                 </StackPanel>
+
             </materialDesign:Card>
         </Grid>
         <!--  built from scratch  -->
